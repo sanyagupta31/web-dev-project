@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(axis_people_counter_1600x1600.jpg);
+    background-size:cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+#people {
+    position:relative;
+    top:2%;
+    text-align: center;
+    
+    margin:2px;
+    
+    padding:2px;
+   
+    
+    font-size: 70px;
+    background-color: aliceblue;
+    color:blueviolet;
+   
+
+}
+#count-el {
+     position: relative;
+     text-align: center;
+     font-size: 500%;
+     color:rgb(183, 12, 58);
+
+
+}
+#increment-btn {
+    position: absolute;
+    left: 10%; /* Adjust this value to position closer to the left */
+    top: 50%; /* Center the button vertically */
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 500%;
+    background-color: aquamarine;
+}
+
+#save-btn {
+    position: absolute;
+    right: 10%; /* Adjust this value to position closer to the right */
+    top: 50%; /* Center the button vertically */
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 500%;
+    background-color: greenyellow;
+}
+#save-el{
+    position: absolute;
+    right:10%;
+    left:30%;
+    top:90%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-content: center;
+    font-size: 400%;
+    background-color: chocolate;
+
+}
+
